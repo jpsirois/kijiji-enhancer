@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Kijiji.ca Enhancer",
   "description": "Improve Kijiji browsing experience by increasing image size",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "permissions": ["http://*.kijiji.ca/"],
   "icons": {
     "16": "icon16.png",

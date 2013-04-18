@@ -6,7 +6,35 @@ init = function() {
 
   // Page: Ad details
   if ($('#viewad_header').length) {
-    $('.view').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_35.JPG', '~~48_20.JPG')) })
+
+    var $imageGallery = $('.VAStyleA .gallery')
+
+    resizeAdImg = function(){
+
+      $('.view').each(function(){
+        var $this = $(this)
+        $this.attr('src', $this.attr('src').replace('~~48_35.JPG', '~~48_20.JPG'))
+
+        var thisRatio = ($this.height() / $this.width() * 100)
+
+        if (thisRatio > 75) {
+          thisRatio = '75'
+          $this.css({
+            'width': 'auto',
+            'height': '100%'
+          })
+        } else {
+          $this.css({
+            'width': '100%',
+            'height': 'auto'
+          })
+        }
+        $imageGallery.css('padding-bottom', '75%')
+      })
+    }
+
+    resizeAdImg()
+
     $('.imageNavs .ni img').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_14.JPG', '~~48_35.JPG')) })
 
     /* Replace zoomed image by their full resolution version {{{
@@ -20,7 +48,13 @@ init = function() {
       mutations.forEach(function(mutation) {
         if (mutation.attributeName === 'src') {
           if ($('.view').attr('src').indexOf('~~48_35.JPG') != -1) {
-            $('.view').attr('src', $('.view').attr('src').replace('~~48_35.JPG', '~~48_20.JPG'))
+            var $this = $('.view')
+            $this.attr('src', $this.attr('src').replace('~~48_35.JPG', '~~48_20.JPG'))
+            resizeAdImg()
+            setTimeout(function(){ resizeAdImg() }, 250)
+            setTimeout(function(){ resizeAdImg() }, 500)
+            setTimeout(function(){ resizeAdImg() }, 750)
+            setTimeout(function(){ resizeAdImg() }, 100)
           }
         }
       });
