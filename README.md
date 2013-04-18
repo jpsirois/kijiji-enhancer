@@ -5,6 +5,7 @@
 - Increase listing images size __*__
 - Increase ad image (using the fullsize version) __*__ 
 - Add a more fluid layout to the ad page
+- Add image gallery keyboard navigation in ad page
 
 __*__ : This increase the size of fetched images so beware of your bandwidth usage.
 

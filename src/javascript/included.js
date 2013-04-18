@@ -1,13 +1,18 @@
 init = function() {
-  // Page: Ads listing
+  /* Page: Ads listing {{{*/
+
   if ($('#sbResultsListing').length) {
     $('.thumbImg').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_14.JPG', '~~48_35.JPG')) })
   }
 
-  // Page: Ad details
+  /*}}}*/
+
+  /* Page: Ad details {{{*/
   if ($('#viewad_header').length) {
 
     var $imageGallery = $('.VAStyleA .gallery')
+
+    /* Resize image gallery {{{*/
 
     resizeAdImg = function(){
 
@@ -67,6 +72,23 @@ init = function() {
     observer.observe(target, config);
 
     /*}}}*/
+
+    /*}}}*/
+
+    /* Add Image gallery keyboard navigation {{{*/
+
+    var $nextBtn = $('.jsonly .prev'),
+        $prevBtn = $('.jsonly .next')
+
+    $('body').keydown(function(e) {
+      console.log(e.which)
+      if (e.which === 37) { $nextBtn.trigger('click') }
+      if (e.which === 39) { $prevBtn.trigger('click') }
+    })
+
+    /*}}}*/
   }
+
+  /*}}}*/
 }
 init()
