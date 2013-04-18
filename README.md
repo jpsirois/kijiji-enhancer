@@ -20,7 +20,8 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## TODO
 
-* Display all ad images in the listing
+- Display the full-resolution image when switching between images on ad Page instead of medium version highly resized
+- Display all ad images in the listing
 
 ## License
 
