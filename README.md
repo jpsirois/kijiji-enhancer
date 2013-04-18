@@ -12,7 +12,7 @@
 ### [LesPAC.com](http://www.lespac.com)
 
 - Increase listing images size __*__
-- Add support for ctrl+click on search result to open in new tab
+- Add support for "CMD (or CTRL) + Click" on search result to open in new tab
 
 __*__ : This increase the size of fetched images so beware of your bandwidth usage.
 
