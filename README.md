@@ -1,11 +1,18 @@
-# Kijiji Enhancer
+# Kijiji.ca & LesPAC.com Enhancer
 
 ## Features
+
+### [Kijiji.ca](http://www.kijiji.ca)
 
 - Increase listing images size __*__
 - Increase ad image (using the fullsize version) __*__ 
 - Add a more fluid layout to the ad page
 - Add image gallery keyboard navigation in ad page
+
+### [LesPAC.com](http://www.lespac.com)
+
+- Increase listing images size __*__
+- Add support for ctrl+click on search result to open in new tab
 
 __*__ : This increase the size of fetched images so beware of your bandwidth usage.
 
@@ -21,6 +28,7 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## TODO
 
+### Kijiji.ca
 - Display all ad images in the listing
 
 ## License

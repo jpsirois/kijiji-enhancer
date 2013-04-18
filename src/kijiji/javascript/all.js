@@ -81,7 +81,6 @@ init = function() {
         $prevBtn = $('.jsonly .next')
 
     $('body').keydown(function(e) {
-      console.log(e.which)
       if (e.which === 37) { $nextBtn.trigger('click') }
       if (e.which === 39) { $prevBtn.trigger('click') }
     })

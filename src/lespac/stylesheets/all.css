@@ -1,0 +1,14 @@
+/* Ads listing page */
+
+.ad_detail.ad_big .inner_ad .ad_picture {
+  width: 100%;
+  height: auto;
+}
+.ad_detail.ad_big .inner_ad .ad_picture img {
+  width: 100%;
+}
+
+.ad_more_picture img {
+  width: auto;
+  height: auto;
+}
