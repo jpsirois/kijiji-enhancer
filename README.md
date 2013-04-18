@@ -7,7 +7,7 @@ Just go to the [chrome web store](https://chrome.google.com/webstore/detail/kiji
 
 ## Usage
 
-Just enjoy browsing Kijiji [kijiji.ca](http://kijiji.ca).
+Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 
 ## TODO
