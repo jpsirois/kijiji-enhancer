@@ -14,6 +14,9 @@
 }
 
 /* Expande main-image over it’s original size for big screen */
+.viewad_frame_tbl {
+  width: 100%;
+}
 .viewadimgcontr,
 .viewadimgcontr > tbody,
 .viewadimgcontr > tbody > tr,
