@@ -17,6 +17,7 @@
     }
   ],
   "web_accessible_resources": [
-    "javascript/included.js"
+    "javascript/included.js",
+    "stylesheets/detail.css"
   ]
 }

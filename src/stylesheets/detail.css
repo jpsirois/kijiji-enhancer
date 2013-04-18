@@ -1,0 +1,30 @@
+/* Ad detail page */
+
+/* Overwrite main image size  */
+.VAStyleA .gallery {
+  height: 0;
+  width: auto;
+  padding-bottom: 74.9679%;
+}
+
+/* Overwrite main image size  */
+.VAStyleA .imageStack {
+  height: auto;
+  width: auto;
+}
+
+/* Expande main-image over it’s original size for big screen */
+.viewadimgcontr,
+.viewadimgcontr > tbody,
+.viewadimgcontr > tbody > tr,
+.viewadimgcontr > tbody > tr > td {
+  display: block;
+  width: 100%;
+}
+
+/* Ad other small image */
+.viewad_images img { width: 100%; }
+.VAStyleA .imageNavs td { width: auto; height: auto; }
+
+/* Ad images column wrap */
+.adImg { width: 60%; }
