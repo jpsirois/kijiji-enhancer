@@ -2,7 +2,7 @@
 
 ## Installation
 
-Just go to the [chrome web store]() and click the **✚ Add to Chrome** button.
+Just go to the [chrome web store](https://chrome.google.com/webstore/detail/kijijica-enhancer/milbijkclehoicmkjkaogiobhhpalokf) and click the **✚ Add to Chrome** button.
 
 
 ## Usage
