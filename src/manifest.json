@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Kijiji.ca Enhancer",
   "description": "Facilite la recherche d’annonces classées sur Kijiji en augmentant la taille des photos",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "permissions": ["http://*.kijiji.ca/"],
   "icons": {
     "16": "icon16.png",
@@ -13,8 +13,10 @@
     {
       "run_at": "document_end",
       "matches": ["http://*.kijiji.ca/*"],
-      "js": ["init.js"]
+      "js": ["javascript/init.js"]
     }
   ],
-  "web_accessible_resources": ["visual-enhancer.js"]
+  "web_accessible_resources": [
+    "javascript/included.js"
+  ]
 }
