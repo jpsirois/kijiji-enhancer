@@ -28,6 +28,9 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## TODO
 
+- Optimize 
+- Clean messy stuff
+
 ### Kijiji.ca
 - Display all ad images in the listing
 
