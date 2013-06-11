@@ -6,6 +6,17 @@
   background: none;
 }
 
+/* Searchbar */
+.hdr2_srchbar .lft_cur,
+.hdr2_srchbar .mid,
+.hdr2_srchbar .rht_cur {
+  background: none;
+}
+.hdr2_srchbar {
+  background: #eee;
+  border-radius: 2px;
+}
+
 /*}}}*/
 
 /* Ad detail page {{{*/
