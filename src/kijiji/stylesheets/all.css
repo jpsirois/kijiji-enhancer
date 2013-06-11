@@ -1,4 +1,14 @@
-/* Ad detail page */
+/* Layout {{{*/
+
+/* Header */
+.hdr_lft_col,
+.hdr_rht_col {
+  background: none;
+}
+
+/*}}}*/
+
+/* Ad detail page {{{*/
 
 /* Overwrite main image size  */
 .VAStyleA .gallery {
@@ -31,3 +41,5 @@
 
 /* Ad images column wrap */
 .adImg { width: 60%; }
+
+/*}}}*/
