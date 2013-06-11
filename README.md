@@ -28,11 +28,34 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## TODO
 
-- Optimize 
-- Clean messy stuff
-
 ### Kijiji.ca
+
 - Display all ad images in the listing
+
+## Release Notes
+
+### 0.0.5 - 2013/18/04
+
+- Add LesPac.com basic support
+
+### 0.0.4 - 2013/18/04
+
+- Add Kijiji ads image gallery keyboard navigation
+
+### 0.0.3 - 2013/18/04
+
+- Fix resizing for ads with different image ratio
+- Bug fixes
+
+### 0.0.2 - 2013/18/04
+
+- Optimizations
+- Bug fixes
+
+### 0.0.1 - 2013/17/04
+
+- Resize Kijiji listing ads images using higher resolution thumbnails
+
 
 ## License
 
