@@ -71,6 +71,19 @@ body, .standard, .standardtitle {
   background: none;
 }
 
+/* Header sub-nav */
+.navlist .lft_cur,
+.navlist .mid,
+.navlist .rht_cur {
+  background: none;
+  border: 0;
+}
+
+.navlist {
+  background: #eee;
+  border-radius: 2px;
+}
+
 /* Searchbar */
 .hdr2_srchbar .lft_cur,
 .hdr2_srchbar .mid,
