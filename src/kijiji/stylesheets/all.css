@@ -61,12 +61,6 @@ body, .standard, .standardtitle {
   font-size: 1.4rem;
 }
 
-.resultsTableSB .adLinkSB {
-  font-size: 20px;
-  font-size: 2.0rem;
-  text-decoration: none;
-}
-
 /*}}}*/
 
 /* Layout {{{*/
@@ -86,6 +80,43 @@ body, .standard, .standardtitle {
 .hdr2_srchbar {
   background: #eee;
   border-radius: 2px;
+}
+
+/*}}}*/
+
+/* Thumbnails {{{*/
+
+.thumbnail {
+  border: 0;
+}
+
+/*}}}*/
+
+/* Ads listing page {{{*/
+
+tr.highlight {
+  background: #eee;
+}
+
+.resultsTableSB td a,
+.resultsTableSB td a:hover {
+  color: black;
+  background: transparent;
+}
+
+.resultsTableSB .adLinkSB,
+.resultsTableSB .prc {
+  font-size: 18px;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.paginationBottomBg {
+  font-size: 125%;
+}
+
+.paginationBottomBg a {
+  background: transparent;
 }
 
 /*}}}*/
