@@ -1,3 +1,25 @@
+/* Transition {{{*/
+
+a,
+a img,
+a span,
+a:after,
+a:before,
+a h1,
+button,
+tr {
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    -webkit-transition-property: opacity, color, background-position, background-color, border-color;
+    -moz-transition-property: opacity, color, background-position, background-color, border-color;
+    -o-transition-property: opacity, color, background-position, background-color, border-color;
+    transition-property: opacity, color, background-position, background-color, border-color;
+}
+
+/*}}}*/
+
 /* Font {{{*/
 
 /* Google Web Font {{{*/
