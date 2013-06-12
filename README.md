@@ -34,6 +34,13 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## Release Notes
 
+### 0.0.6 - 2013/xx/xx
+
+- Change basic font to 'Open Sans'
+- Resize font
+- Add basic element state transition
+- Remove ugly color
+
 ### 0.0.5 - 2013/18/04
 
 - Add LesPac.com basic support
