@@ -25,7 +25,6 @@ Just go to the [chrome web store](https://chrome.google.com/webstore/detail/kiji
 
 Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
-
 ## TODO
 
 ### Kijiji.ca
@@ -34,32 +33,32 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## Release Notes
 
-### 0.0.6 - 2013/xx/xx
+### 0.0.6 - 2013-06-16
 
 - Change basic font to 'Open Sans'
 - Resize font
 - Add basic element state transition
-- Remove ugly color
+- Remove some ugly UI color
 
-### 0.0.5 - 2013/18/04
+### 0.0.5 - 2013-04-18
 
 - Add LesPac.com basic support
 
-### 0.0.4 - 2013/18/04
+### 0.0.4 - 2013-04-18
 
 - Add Kijiji ads image gallery keyboard navigation
 
-### 0.0.3 - 2013/18/04
+### 0.0.3 - 2013-04-18
 
 - Fix resizing for ads with different image ratio
 - Bug fixes
 
-### 0.0.2 - 2013/18/04
+### 0.0.2 - 2013-04-18
 
 - Optimizations
 - Bug fixes
 
-### 0.0.1 - 2013/17/04
+### 0.0.1 - 2013-04-17
 
 - Resize Kijiji listing ads images using higher resolution thumbnails
 
