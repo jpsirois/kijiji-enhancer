@@ -8,6 +8,9 @@
 - Increase ad image (using the fullsize version) __*__ 
 - Add a more fluid layout to the ad page
 - Add image gallery keyboard navigation in ad page
+- Better font-family and size
+- Remove some ugly & useless color 
+- Remove some useless & unfriendly elements
 
 ### [LesPAC.com](http://www.lespac.com)
 
@@ -39,6 +42,7 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 - Resize font
 - Add basic element state transition
 - Remove some ugly UI color
+- Remove useless home new ads slide
 
 ### 0.0.5 - 2013-04-18
 
