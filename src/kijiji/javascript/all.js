@@ -1,5 +1,13 @@
 init = function() {
-  /* Page: Ads listing {{{*/
+  /* Page: Category listing {{{*/
+
+  if ($('.area-home-pg').length) {
+    $('#hpgctr').remove().after('br').remove()
+  }
+
+  /*}}}*/
+
+/* Page: Ads listing {{{*/
 
   if ($('#sbResultsListing').length) {
     $('.thumbImg').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_14.JPG', '~~48_35.JPG')) })
