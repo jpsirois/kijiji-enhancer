@@ -105,6 +105,20 @@ body, .standard, .standardtitle {
 
 /*}}}*/
 
+/* Categories listing page {{{*/
+
+.homeMetaCatName {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+.catlist a {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+/*}}}*/
+
 /* Ads listing page {{{*/
 
 tr.highlight {
