@@ -8,6 +8,10 @@ init = function() {
   /* Page: Category listing {{{*/
 
   if ($('.area-home-pg').length) {
+    // Remove Ads
+    $('.ahRht').remove()
+
+    // Remove random useless ads on home
     $('#hpgctr').remove().after('br').remove()
   }
 
@@ -17,6 +21,16 @@ init = function() {
 
   if ($('#sbResultsListing').length) {
 
+    // Remove Ads
+    $('.sbBucket, #topAdSense, #bottomAdSense, #bottomAdCCBucket').remove()
+    $('#inlineBanner').parents('.resultsTableSB').remove()
+    $('#adlink').next('p').next('div').remove()
+    $('.paginationBottomBg').next('div').remove()
+
+    // Remove Useless Popular search word
+    $('.popWords').remove()
+
+    // Enable CMD/CTRL + Click
     $('#SNB_Results tr.resultsTableSB').each(function(){
       $this = $(this)
       adLink = $this.find('.adLinkSB').attr('href')
@@ -28,8 +42,9 @@ init = function() {
     });
     $('#SNB_Results td').unbind('click')
 
+    // Enlarge listing thumbnails
     $('.thumbImg').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_14.JPG', '~~48_35.JPG')) })
-    $('.popWords').remove()
+
   }
 
   /*}}}*/
@@ -38,6 +53,10 @@ init = function() {
   if ($('#viewad_header').length) {
 
     var $imageGallery = $('.VAStyleA .gallery')
+
+    // Remove Ads
+    $('#viewad-textlinks, #googsense').remove()
+    $('#CarTips').next('div').remove()
 
     /* Resize image gallery {{{*/
 
