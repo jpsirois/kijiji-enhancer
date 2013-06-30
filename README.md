@@ -4,13 +4,15 @@
 
 ### [Kijiji.ca](http://www.kijiji.ca)
 
+- Add support of CMD/CTRL + Click to open Ad in a new tab
 - Increase listing images size __*__
-- Increase ad image (using the fullsize version) __*__ 
+- Increase ad image (using the fullsize version) __*__
 - Add a more fluid layout to the ad page
 - Add image gallery keyboard navigation in ad page
-- Better font-family and size
-- Remove some ugly & useless color 
+- Better font-family (Mac only) and size
+- Remove some ugly & useless color
 - Remove some useless & unfriendly elements
+
 
 ### [LesPAC.com](http://www.lespac.com)
 
@@ -35,6 +37,11 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 - Display all ad images in the listing
 
 ## Release Notes
+
+### 0.0.7 - 2013-06-29
+
+- Add support of CMD/CTRL + Click to open Ad in a new tab
+- Revert font-family to default on Windows (fix 'Open Sans' small font-size ugly rendering)
 
 ### 0.0.6 - 2013-06-16
 
