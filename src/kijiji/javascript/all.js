@@ -54,9 +54,19 @@ init = function() {
 
     var $imageGallery = $('.VAStyleA .gallery')
 
-    // Remove Ads
+    /* Remove Ads {{{*/
+
+    // Remove sidebar Ads
+    $('.viewadrightcol .box').next('div').find('div').last().remove()
+
+    // Remove Desjardins Ads Car insurance tab
+    $('.viewAdTabs li').eq(2).remove()
+    $('#tab2').remove()
+
+    // Remove Commercials links
     $('#viewad-textlinks, #googsense').remove()
-    $('#CarTips').nextUntil('div').next('div').remove()
+
+    /*}}}*/
 
     /* Resize image gallery {{{*/
 
