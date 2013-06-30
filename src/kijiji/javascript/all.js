@@ -1,4 +1,10 @@
 init = function() {
+  /* OS Detection {{{*/
+  if (navigator.platform.indexOf("Win")!=-1) {
+    $('html').addClass('windows')
+  }
+  /*}}}*/
+
   /* Page: Category listing {{{*/
 
   if ($('.area-home-pg').length) {

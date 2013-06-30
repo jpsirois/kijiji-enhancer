@@ -61,6 +61,10 @@ body, .standard, .standardtitle {
   font-size: 1.4rem;
 }
 
+.windows body, .windows .standard, .windows .standardtitle {
+  font-family: Arial, sans-serif !important;
+}
+
 /*}}}*/
 
 /* Layout {{{*/
