@@ -56,7 +56,7 @@ init = function() {
 
     // Remove Ads
     $('#viewad-textlinks, #googsense').remove()
-    $('#CarTips').next('div').remove()
+    $('#CarTips').nextUntil('div').next('div').remove()
 
     /* Resize image gallery {{{*/
 
