@@ -38,6 +38,10 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## Release Notes
 
+### 0.0.8 - 2013-06-30
+
+- Removed publicity & commercials links 
+
 ### 0.0.7.1 - 2013-06-29
 
 - Fix a missing ressources in the uploaded package on Chrome Web Store
