@@ -142,6 +142,10 @@ tr.highlight {
   text-decoration: none;
 }
 
+.resultsTableSB .nomorebroken {
+  text-decoration: none;
+}
+
 .paginationBottomBg {
   font-size: 125%;
 }

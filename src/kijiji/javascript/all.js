@@ -16,6 +16,18 @@ init = function() {
 /* Page: Ads listing {{{*/
 
   if ($('#sbResultsListing').length) {
+
+    $('#SNB_Results tr.resultsTableSB').each(function(){
+      $this = $(this)
+      adLink = $this.find('.adLinkSB').attr('href')
+      $this.find('td').wrapInner('<a class="nomorebroken" href="' + adLink + '" />')
+    })
+    $('#SNB_Results td img.thumbImg').unwrap()
+    $('#SNB_Results .adLinkSB').replaceWith(function () {
+      return $('<span class="adLinkSB" />').append($(this).contents());
+    });
+    $('#SNB_Results td').unbind('click')
+
     $('.thumbImg').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_14.JPG', '~~48_35.JPG')) })
     $('.popWords').remove()
   }
