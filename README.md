@@ -12,7 +12,7 @@
 - Better font-family (Mac only) and size
 - Remove some ugly & useless color
 - Remove some useless & unfriendly elements
-
+- Removed publicity & commercials links
 
 ### [LesPAC.com](http://www.lespac.com)
 
@@ -40,7 +40,7 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ### 0.0.8 - 2013-06-30
 
-- Removed publicity & commercials links 
+- Removed publicity & commercials links on Kijiji
 
 ### 0.0.7.1 - 2013-06-29
 
