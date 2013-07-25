@@ -5,7 +5,7 @@
 ### [Kijiji.ca](http://www.kijiji.ca)
 
 - Add support of CMD/CTRL + Click to open Ad in a new tab
-- Increase listing images size __*__
+- Increase ads listing (browsing, my following, all a user ads) images size __*__
 - Increase ad image (using the fullsize version) __*__
 - Add a more fluid layout to the ad page
 - Add image gallery keyboard navigation in ad page
@@ -35,9 +35,12 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 ### Kijiji.ca
 
 - Display all ad images in the listing
-- Load full-resolution image in the "Ads of this member"
 
 ## Release Notes
+
+### 0.0.9 - 2013-07-25
+
+- Resize image of my following ads & all user ads listing on Kijiji
 
 ### 0.0.8 - 2013-06-30
 
