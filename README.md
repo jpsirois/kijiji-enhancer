@@ -35,6 +35,7 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 ### Kijiji.ca
 
 - Display all ad images in the listing
+- Load full-resolution image in the "Ads of this member"Annonces du membre
 
 ## Release Notes
 
