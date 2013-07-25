@@ -17,9 +17,9 @@ init = function() {
 
   /*}}}*/
 
-/* Page: Ads listing {{{*/
+/* Page: Ads listing (browsing, my favorite, all user ads) {{{*/
 
-  if ($('#sbResultsListing').length) {
+  if ($('#sbResultsListing').length || $('.adsTable').length || $('#tableDefault').length) {
 
     // Remove Ads
     $('.sbBucket, #topAdSense, #bottomAdSense, #bottomAdCCBucket').remove()
@@ -43,7 +43,7 @@ init = function() {
     $('#SNB_Results td').unbind('click')
 
     // Enlarge listing thumbnails
-    $('.thumbImg').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_14.JPG', '~~48_35.JPG')) })
+    $('.thumbImg, .thumbnail, .myadtitle img').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_14.JPG', '~~48_35.JPG')) })
 
   }
 
