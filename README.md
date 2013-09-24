@@ -35,6 +35,8 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 ### Kijiji.ca
 
 - Display all ad images in the listing
+- Save ads as favorite (synced with a login)
+- Infinite Scroll
 
 ## Release Notes
 
