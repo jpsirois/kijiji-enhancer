@@ -41,6 +41,10 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## Release Notes
 
+### 0.1.4 - 2013-09-25
+
+- Remove a forgotten debug developpment flag.
+
 ### 0.1.3 - 2013-09-25
 
 - Fix (another, but similar as last) bug in infinite scroll in some specific categories make it impossible to view next ads when scrolling.
