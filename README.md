@@ -40,6 +40,10 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## Release Notes
 
+### 0.1.2 - 2013-09-25
+
+- Fix a bug in infinite scroll in some specific categories make it impossible to view next ads when scrolling.
+
 ### 0.1.1 - 2013-09-24
 
 - Fix a little bug in infinite scroll. Problem caused by calling enhancement functions on already enhanced elements.
