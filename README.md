@@ -40,6 +40,10 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## Release Notes
 
+### 0.1.1 - 2013-09-24
+
+- Fix a little bug in infinite scroll. Problem caused by calling enhancement functions on already enhanced elements.
+
 ### 0.1.0 - 2013-09-24
 
 - Add infinite scroll in Kijiji ads listing

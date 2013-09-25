@@ -50,16 +50,17 @@ init = function() {
 
     listingOnNewContent = function() {
       // Enable CMD/CTRL + Click
-      $('#SNB_Results tr.resultsTableSB').each(function(){
+      $('#SNB_Results tr.resultsTableSB:not(.enhanced)').each(function(){
         $this = $(this)
+        $this.addClass('enhanced')
         adLink = $this.find('.adLinkSB').attr('href')
         $this.find('td').wrapInner('<a class="nomorebroken" href="' + adLink + '" />')
       })
-      $('#SNB_Results td img.thumbImg').unwrap()
-      $('#SNB_Results .adLinkSB').replaceWith(function () {
+      $('#SNB_Results tr.resultsTableSB:not(.enhanced) td img.thumbImg').unwrap()
+      $('#SNB_Results tr.resultsTableSB:not(.enhanced) .adLinkSB').replaceWith(function () {
         return $('<span class="adLinkSB" />').append($(this).contents());
       });
-      $('#SNB_Results td').unbind('click')
+      $('#SNB_Results tr.resultsTableSB:not(.enhanced) td').unbind('click')
 
       // Enlarge listing thumbnails
       $('.thumbImg, .thumbnail, .myadtitle img').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_14.JPG', '~~48_35.JPG')) })
