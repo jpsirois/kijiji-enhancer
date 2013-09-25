@@ -191,3 +191,11 @@ tr.highlight {
 .adImg { width: 60%; }
 
 /*}}}*/
+
+/* Infinite Scroll Loading {{{*/
+
+.infinite-scroll-loading {
+  font-size: 20px;
+}
+
+/*}}}*/

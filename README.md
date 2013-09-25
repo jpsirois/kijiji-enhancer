@@ -4,6 +4,7 @@
 
 ### [Kijiji.ca](http://www.kijiji.ca)
 
+- Infinite Scroll in Ads listing
 - Add support of CMD/CTRL + Click to open Ad in a new tab
 - Increase ads listing (browsing, my following, all a user ads) images size __*__
 - Increase ad image (using the fullsize version) __*__
@@ -36,9 +37,12 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 - Display all ad images in the listing
 - Save ads as favorite (synced with a login)
-- Infinite Scroll
 
 ## Release Notes
+
+### 0.1.0 - 2013-09-24
+
+- Add infinite scroll in Kijiji ads listing
 
 ### 0.0.9 - 2013-07-25
 
