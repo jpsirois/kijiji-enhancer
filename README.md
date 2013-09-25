@@ -17,6 +17,7 @@
 
 ### [LesPAC.com](http://www.lespac.com)
 
+- Infinite Scroll in Ads listing
 - Increase listing images size __*__
 - Add support for "CMD (or CTRL) + Click" on search result to open in new tab
 
@@ -40,6 +41,10 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 - Save ads as favorite (synced with a login)
 
 ## Release Notes
+
+### 0.1.5 - 2013-09-25
+
+- Add infinite Scroll to LesPAC
 
 ### 0.1.4 - 2013-09-25
 
