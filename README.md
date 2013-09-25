@@ -35,10 +35,15 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ### Kijiji.ca
 
+- Detect when we reach the end of the current paging to prevent loading the last page of results indefinitly
 - Display all ad images in the listing
 - Save ads as favorite (synced with a login)
 
 ## Release Notes
+
+### 0.1.3 - 2013-09-25
+
+- Fix (another, but similar as last) bug in infinite scroll in some specific categories make it impossible to view next ads when scrolling.
 
 ### 0.1.2 - 2013-09-25
 
