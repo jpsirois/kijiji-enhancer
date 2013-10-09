@@ -25,7 +25,7 @@ __*__ : This increase the size of fetched images so beware of your bandwidth usa
 
 ## Installation
 
-Just go to the [chrome web store](https://chrome.google.com/webstore/detail/kijijica-enhancer/milbijkclehoicmkjkaogiobhhpalokf) and click the **✚ Add to Chrome** button.
+Just go to the [chrome web store](https://chrome.google.com/webstore/detail/kijijica-enhancer/milbijkclehoicmkjkaogiobhhpalokf) and click the **✚ Free** button.
 
 
 ## Usage
