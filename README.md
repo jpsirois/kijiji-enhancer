@@ -30,7 +30,7 @@ Just go to the [chrome web store](https://chrome.google.com/webstore/detail/kiji
 
 ## Usage
 
-Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
+Just enjoy browsing [Kijiji.ca](http://kijiji.ca) & [LesPAC.com](http://lespac.com)  again.
 
 ## TODO
 
