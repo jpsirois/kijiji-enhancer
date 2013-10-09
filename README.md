@@ -120,4 +120,4 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) & [LesPAC.com](http://lespac.c
 
 ## License
 
-© 2013 licensed under a MIT license.
+© 2013 licensed under a [MIT license](http://jpsirois.mit-license.org/license.html).
