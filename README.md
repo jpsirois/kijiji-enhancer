@@ -42,6 +42,10 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) again.
 
 ## Release Notes
 
+### 0.1.6 - 2013-10-09
+
+- Prevent loading same ads twice on same Kijiji results page
+
 ### 0.1.5 - 2013-09-25
 
 - Add infinite Scroll to LesPAC
