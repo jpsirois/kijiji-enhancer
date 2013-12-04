@@ -71,7 +71,7 @@ init = function() {
       $('#SNB_Results tr.resultsTableSB:not(.enhanced) td').unbind('click')
 
       // Enlarge listing thumbnails
-      $('.thumbImg, .thumbnail, .myadtitle img').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_14.JPG', '~~48_35.JPG')) })
+      $('.thumbImg, .thumbnail, .myadtitle img').each(function(){  $(this).attr('src', $(this).attr('src').replace('_14.JPG', '_35.JPG')) })
     }
 
     /*}}}*/
@@ -130,7 +130,7 @@ init = function() {
 
       $('.view').each(function(){
         var $this = $(this)
-        $this.attr('src', $this.attr('src').replace('~~48_35.JPG', '~~48_20.JPG'))
+        $this.attr('src', $this.attr('src').replace('_35.JPG', '_20.JPG'))
 
         var thisRatio = ($this.height() / $this.width() * 100)
 
@@ -152,7 +152,7 @@ init = function() {
 
     resizeAdImg()
 
-    $('.imageNavs .ni img').each(function(){  $(this).attr('src', $(this).attr('src').replace('~~48_14.JPG', '~~48_35.JPG')) })
+    $('.imageNavs .ni img').each(function(){  $(this).attr('src', $(this).attr('src').replace('_14.JPG', '_35.JPG')) })
 
     /* Replace zoomed image by their full resolution version {{{
      * when switch between ad images */
@@ -164,9 +164,9 @@ init = function() {
     var observer = new MutationObserver(function(mutations) {
       mutations.forEach(function(mutation) {
         if (mutation.attributeName === 'src') {
-          if ($('.view').attr('src').indexOf('~~48_35.JPG') != -1) {
+          if ($('.view').attr('src').indexOf('_35.JPG') != -1) {
             var $this = $('.view')
-            $this.attr('src', $this.attr('src').replace('~~48_35.JPG', '~~48_20.JPG'))
+            $this.attr('src', $this.attr('src').replace('_35.JPG', '_20.JPG'))
             resizeAdImg()
             setTimeout(function(){ resizeAdImg() }, 250)
             setTimeout(function(){ resizeAdImg() }, 500)
