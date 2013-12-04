@@ -42,6 +42,10 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) & [LesPAC.com](http://lespac.c
 
 ## Release Notes
 
+### 0.1.7 - 2013-12-04
+
+- Fix an image resizing problem on Kijiji. It was caused by a change in the way they handle filename for some of those uploaded images.
+
 ### 0.1.6 - 2013-10-09
 
 - Prevent loading same ads twice on same Kijiji results page
