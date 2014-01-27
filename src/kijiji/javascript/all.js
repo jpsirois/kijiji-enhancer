@@ -15,9 +15,13 @@ init = function() {
 
   /* Page: Category listing {{{*/
 
-  if ($('.area-home-pg').length) {
+  if ($('#gpt-rightrail-top').length) {
     // Remove Ads
-    $('.ahRht').remove()
+    $('#gpt-rightrail-top').parents('.col-2').each(function(){
+      var $this = $(this)
+      $this.next('.col-1').removeClass('col-1')
+      $(this).remove()
+    })
 
     // Remove random useless ads on home
     $('#hpgctr').remove().after('br').remove()
