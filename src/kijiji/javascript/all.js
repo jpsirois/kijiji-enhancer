@@ -31,17 +31,18 @@ init = function() {
 
 /* Page: Ads listing (browsing, my favorite, all user ads) {{{*/
 
-  if ($('#sbResultsListing').length || $('.adsTable').length || $('#tableDefault').length) {
+  // if ($('#sbResultsListing').length || $('.adsTable').length || $('#tableDefault').length) {
+  if ($('.container-results').length) {
 
     /* ListingOnload {{{*/
 
     var loadedAds = Array(),
     listingOnload = function() {
       // Remove Ads
-      $('.sbBucket, #topAdSense, #bottomAdSense, #bottomAdCCBucket').remove()
-      $('#inlineBanner').parents('.resultsTableSB').remove()
-      $('#adlink').next('p').next('div').remove()
-      $('.paginationBottomBg').next('div').remove()
+      $('#gpt-leaderboard-top, #gpt-leaderboard-base, #gpt-minileaderboard-base, #InlineBanner, .skyscraper').remove()
+
+      // Remove Commercial Ads
+      $('.adsense-top-bar, .adsense-container').remove()
 
       // Remove Useless Popular search word
       $('.popWords').remove()
