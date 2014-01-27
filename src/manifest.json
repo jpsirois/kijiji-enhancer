@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Kijiji.ca & LesPAC.com Enhancer",
   "description": "Improve Kijiji.ca & LesPAC.com browsing experience",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "permissions": ["http://*.kijiji.ca/", "http://*.lespac.com/"],
   "icons": {
     "16": "icon16.png",
