@@ -16,6 +16,9 @@ init = function() {
   /* Page: Category listing {{{*/
 
   if ($('#gpt-rightrail-top').length) {
+    // Remove useless random ad gallery
+    $('#AdGallery, #GalleryContainer').remove()
+
     // Remove Ads
     $('#gpt-rightrail-top').parents('.col-2').each(function(){
       var $this = $(this)

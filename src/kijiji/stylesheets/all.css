@@ -111,6 +111,10 @@ body, .standard, .standardtitle {
 
 /* Categories listing page {{{*/
 
+.first-links {
+  margin-bottom: 0;
+}
+
 .homeMetaCatName {
   font-size: 18px;
   font-size: 1.8rem;
