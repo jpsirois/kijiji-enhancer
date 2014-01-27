@@ -79,7 +79,10 @@ init = function() {
       $('#SNB_Results tr.resultsTableSB:not(.enhanced) td').unbind('click')
 
       // Enlarge listing thumbnails
-      $('.thumbImg, .thumbnail, .myadtitle img').each(function(){  $(this).attr('src', $(this).attr('src').replace('_14.JPG', '_35.JPG')) })
+      $('.image img').each(function(){
+        $(this).attr('src', $(this).attr('src').replace(/_[2|14]\.JPG/, '_35.JPG'))
+      })
+
     }
 
     /*}}}*/

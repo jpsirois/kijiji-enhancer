@@ -134,6 +134,21 @@ body, .title, #MainContainer a {
 
 /* Ads listing page {{{*/
 
+.container-results .image {
+  width: auto;
+}
+
+.container-results .image img {
+  max-width: 250px;
+  max-height: 250px;
+  width: 250px;
+}
+
+/* Prevent Multiple Images border from breaking when resized */
+.container-results .multiple-images {
+  background: none;
+}
+
 tr.highlight {
   background: #eee;
 }
@@ -144,15 +159,35 @@ tr.highlight {
   background: transparent;
 }
 
-.resultsTableSB .adLinkSB,
-.resultsTableSB .prc {
-  font-size: 18px;
-  font-size: 1.8rem;
+#MainContainer .container-results .watchlist {
+  padding: 0 10px;
+}
+
+#MainContainer .container-results .description .title,
+#MainContainer .container-results .price {
+  font-size: 18px !important;
+  font-size: 1.8rem !important;
   text-decoration: none;
 }
 
-.resultsTableSB .nomorebroken {
+#MainContainer .container-results .description .title,
+#MainContainer .container-results .price {
+  font-size: 18px !important;
+  font-size: 1.8rem !important;
   text-decoration: none;
+}
+
+#MainContainer .container-results .description {
+  width: 100%;
+}
+
+#MainContainer .container-results .description p {
+  font-size: 16px !important;
+  font-size: 1.6rem !important;
+}
+
+#MainContainer .container-results .posted {
+  white-space: nowrap;
 }
 
 .paginationBottomBg {
