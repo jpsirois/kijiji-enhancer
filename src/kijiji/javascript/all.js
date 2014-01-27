@@ -59,30 +59,30 @@ init = function() {
 
     listingOnNewContent = function() {
       // Removed double & enable CMD/CTRL + Click
-      $('#SNB_Results tr.resultsTableSB:not(.enhanced)').each(function(){
-        var $this = $(this),
-        adLink = $this.find('.adLinkSB').attr('href')
+      // FIXME
+      // $('.container-results table:not(.enhanced) a').unbind('click')
+      // $('.container-results table:not(.enhanced)').each(function(){
+      //   var $this = $(this),
+      //   adLink = $this.find('a.title').attr('href')
 
-        if (loadedAds.indexOf(adLink) !== -1) {
-          $this.remove()
-          return
-        }
+      //   if (loadedAds.indexOf(adLink) !== -1) {
+      //     $this.remove()
+      //     return
+      //   }
 
-        $this.addClass('enhanced')
-        $this.find('td').wrapInner('<a class="nomorebroken" href="' + adLink + '" />')
-        loadedAds.push(adLink)
-      })
-      $('#SNB_Results tr.resultsTableSB:not(.enhanced) td img.thumbImg').unwrap()
-      $('#SNB_Results tr.resultsTableSB:not(.enhanced) .adLinkSB').replaceWith(function () {
-        return $('<span class="adLinkSB" />').append($(this).contents());
-      });
-      $('#SNB_Results tr.resultsTableSB:not(.enhanced) td').unbind('click')
+      //   // $this.addClass('enhanced')
+      //   $this.find('td').wrapInner('<a class="nomorebroken" href="' + adLink + '" />')
+      //   loadedAds.push(adLink)
+      // })
+      // $('.container-results table:not(.enhanced) td .image img').unwrap()
+      // $('.container-results table:not(.enhanced) .title').replaceWith(function () {
+      //   return $('<span class="title" />').append($(this).contents());
+      // });
 
       // Enlarge listing thumbnails
       $('.image img').each(function(){
         $(this).attr('src', $(this).attr('src').replace(/_[2|14]\.JPG/, '_35.JPG'))
       })
-
     }
 
     /*}}}*/
@@ -117,21 +117,24 @@ init = function() {
   /*}}}*/
 
   /* Page: Ad details {{{*/
-  if ($('#viewad_header').length) {
+  if ($('#PageVIP').length) {
 
     var $imageGallery = $('.VAStyleA .gallery')
 
     /* Remove Ads {{{*/
 
     // Remove sidebar Ads
-    $('.viewadrightcol .box').next('div').find('div').last().remove()
+    $('#GPTBigbox').remove()
 
     // Remove Desjardins Ads Car insurance tab
     $('.viewAdTabs li').eq(2).remove()
     $('#tab2').remove()
 
+    // Remoce under ads image ads links
+    $('#ImageSponsors').remove()
+
     // Remove Commercials links
-    $('#viewad-textlinks, #googsense').remove()
+    $('.adsense-top-bar, .adsense-container').remove()
 
     /*}}}*/
 
@@ -139,7 +142,7 @@ init = function() {
 
     resizeAdImg = function(){
 
-      $('.view').each(function(){
+      $('#ShownImage img').each(function(){
         var $this = $(this)
         $this.attr('src', $this.attr('src').replace('_35.JPG', '_20.JPG'))
 
@@ -163,13 +166,15 @@ init = function() {
 
     resizeAdImg()
 
-    $('.imageNavs .ni img').each(function(){  $(this).attr('src', $(this).attr('src').replace('_14.JPG', '_35.JPG')) })
+    $('#ImageThumbnails img').each(function(){
+      $(this).attr('src', $(this).attr('src').replace('_14.JPG', '_35.JPG'))
+    })
 
     /* Replace zoomed image by their full resolution version {{{
      * when switch between ad images */
 
     // select the target node
-    var target = document.querySelector('.view');
+    var target = document.querySelector('#ShownImage');
 
     // create an observer instance
     var observer = new MutationObserver(function(mutations) {

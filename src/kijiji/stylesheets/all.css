@@ -55,7 +55,7 @@ html {
   font-size: 62.5%;
 }
 
-body, .title, #MainContainer a {
+body, .title, #MainContainer a, .ad-attributes, #UserContent {
   font-family: 'Open Sans', Arial, sans-serif !important;
   font-size: 14px;
   font-size: 1.4rem;
@@ -203,10 +203,40 @@ tr.highlight {
 /* Ad detail page {{{*/
 
 /* Overwrite main image size  */
-.VAStyleA .gallery {
-  height: 0;
-  width: auto;
-  padding-bottom: 75%;
+#PageVIP #MainContainer .layout-2 .col-1 .layout-1 {
+  width: 100%;
+}
+
+#PageVIP .layout-2 .layout-1 .col-1,
+#PageVIP .layout-2 .layout-1 .col-2 {
+  width: 50%;
+  padding: 0;
+  float: left;
+  box-sizing: border-box;
+}
+
+#PageVIP .layout-2 .layout-1 .col-1 {
+  max-width: 700px;
+}
+
+#PageVIP .layout-2 .layout-1 .col-2 {
+  padding: 0 20px;
+}
+
+#ShownImage,
+#ShownImage li.showing {
+   width: auto;
+   display: block;
+   padding-bottom:;
+}
+
+#ShownImage li {
+  height: auto;
+}
+
+#ShownImage li img {
+  max-width: 100%;
+  max-height: 10000px;
 }
 
 /* Overwrite main image size  */
@@ -228,11 +258,18 @@ tr.highlight {
 }
 
 /* Ad other small image */
-.viewad_images img { width: 100%; }
-.VAStyleA .imageNavs td { width: auto; height: auto; }
+#ImageThumbnails li {
+  width: 30%;
+}
+
+#ImageThumbnails img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 200px;
+}
+#ImageThumbnails li div { width: auto; height: auto; }
 
 /* Ad images column wrap */
-.adImg { width: 60%; }
 
 /*}}}*/
 
