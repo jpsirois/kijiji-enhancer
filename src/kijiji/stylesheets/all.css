@@ -55,7 +55,7 @@ html {
   font-size: 62.5%;
 }
 
-body, .standard, .standardtitle {
+body, .title, #MainContainer a {
   font-family: 'Open Sans', Arial, sans-serif !important;
   font-size: 14px;
   font-size: 1.4rem;
@@ -115,14 +115,19 @@ body, .standard, .standardtitle {
   margin-bottom: 0;
 }
 
-.homeMetaCatName {
-  font-size: 18px;
-  font-size: 1.8rem;
+#MainContainer .cat-name .category-selected {
+  font-size: 18px !important;
+  font-size: 1.8rem !important;
 }
 
-.catlist a {
-  font-size: 14px;
-  font-size: 1.4rem;
+#MainContainer .cat-subtitle {
+  font-size: 16px !important;
+  font-size: 1.6rem !important;
+}
+
+#MainContainer .category-selected {
+  font-size: 14px !important;
+  font-size: 1.4rem !important;
 }
 
 /*}}}*/
