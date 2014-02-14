@@ -1,0 +1,8 @@
+{
+  "name": "Kijiji.ca & LesPAC.com Enhancer",
+  "version": "0.2.0",
+  "dependencies": {
+    "infinite-scroll": "*"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,282 @@
+/* Transition {{{*/
+
+a,
+a img,
+a span,
+a:after,
+a:before,
+a h1,
+button,
+tr {
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    -webkit-transition-property: opacity, color, background-position, background-color, border-color;
+    -moz-transition-property: opacity, color, background-position, background-color, border-color;
+    -o-transition-property: opacity, color, background-position, background-color, border-color;
+    transition-property: opacity, color, background-position, background-color, border-color;
+}
+
+/*}}}*/
+
+/* Font {{{*/
+
+/* Google Web Font {{{*/
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxuw_rQOTGi-AJs5XCWaKIhU.woff) format('woff');
+}
+
+/*}}}*/
+
+html {
+  font-size: 62.5%;
+}
+
+body, .title, #MainContainer a, .ad-attributes, #UserContent {
+  font-family: 'Open Sans', Arial, sans-serif !important;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.windows body, .windows .standard, .windows .standardtitle {
+  font-family: Arial, sans-serif !important;
+}
+
+/*}}}*/
+
+/* Layout {{{*/
+
+/* Header */
+.hdr_lft_col,
+.hdr_rht_col {
+  background: none;
+}
+
+/* Header sub-nav */
+.navlist .lft_cur,
+.navlist .mid,
+.navlist .rht_cur {
+  background: none;
+  border: 0;
+}
+
+.navlist {
+  background: #eee;
+  border-radius: 2px;
+}
+
+/* Searchbar */
+.hdr2_srchbar .lft_cur,
+.hdr2_srchbar .mid,
+.hdr2_srchbar .rht_cur {
+  background: none;
+}
+.hdr2_srchbar {
+  background: #eee;
+  border-radius: 2px;
+}
+
+/*}}}*/
+
+/* Thumbnails {{{*/
+
+.thumbnail {
+  border: 0;
+}
+
+/*}}}*/
+
+/* Categories listing page {{{*/
+
+.first-links {
+  margin-bottom: 0;
+}
+
+#MainContainer .cat-name .category-selected {
+  font-size: 18px !important;
+  font-size: 1.8rem !important;
+}
+
+#MainContainer .cat-subtitle {
+  font-size: 16px !important;
+  font-size: 1.6rem !important;
+}
+
+#MainContainer .category-selected {
+  font-size: 14px !important;
+  font-size: 1.4rem !important;
+}
+
+/*}}}*/
+
+/* Ads listing page {{{*/
+
+.container-results .image {
+  width: auto;
+}
+
+.container-results .image img {
+  max-width: 250px;
+  max-height: 250px;
+  width: 250px;
+}
+
+/* Prevent Multiple Images border from breaking when resized */
+.container-results .multiple-images {
+  background: none;
+}
+
+tr.highlight {
+  background: #eee;
+}
+
+.resultsTableSB td a,
+.resultsTableSB td a:hover {
+  color: black;
+  background: transparent;
+}
+
+#MainContainer .container-results .watchlist {
+  padding: 0 10px;
+}
+
+#MainContainer .container-results .description .title,
+#MainContainer .container-results .price {
+  font-size: 18px !important;
+  font-size: 1.8rem !important;
+  text-decoration: none;
+}
+
+#MainContainer .container-results .description .title,
+#MainContainer .container-results .price {
+  font-size: 18px !important;
+  font-size: 1.8rem !important;
+  text-decoration: none;
+}
+
+#MainContainer .container-results .description {
+  width: 100%;
+}
+
+#MainContainer .container-results .description p {
+  font-size: 16px !important;
+  font-size: 1.6rem !important;
+}
+
+#MainContainer .container-results .posted {
+  white-space: nowrap;
+}
+
+.paginationBottomBg {
+  font-size: 125%;
+}
+
+.paginationBottomBg a {
+  background: transparent;
+}
+
+/*}}}*/
+
+/* Ad detail page {{{*/
+
+/* Overwrite main image size  */
+#PageVIP #MainContainer .layout-2 .col-1 .layout-1 {
+  width: 100%;
+}
+
+#PageVIP .layout-2 .layout-1 .col-1,
+#PageVIP .layout-2 .layout-1 .col-2 {
+  width: 50%;
+  padding: 0;
+  float: left;
+  box-sizing: border-box;
+}
+
+#PageVIP .layout-2 .layout-1 .col-1 {
+  max-width: 700px;
+}
+
+#PageVIP .layout-2 .layout-1 .col-2 {
+  padding: 0 20px;
+}
+
+#ShownImage,
+#ShownImage li.showing {
+   width: auto;
+   display: block;
+   padding-bottom:;
+}
+
+#ShownImage li {
+  height: auto;
+}
+
+#ShownImage li img {
+  max-width: 100%;
+  max-height: 10000px;
+}
+
+/* Overwrite main image size  */
+.VAStyleA .imageStack {
+  height: auto;
+  width: auto;
+}
+
+/* Expand main-image over it’s original size for big screen */
+.viewad_frame_tbl {
+  width: 100%;
+}
+.viewadimgcontr,
+.viewadimgcontr > tbody,
+.viewadimgcontr > tbody > tr,
+.viewadimgcontr > tbody > tr > td {
+  display: block;
+  width: 100%;
+}
+
+/* Ad other small image */
+#ImageThumbnails li {
+  width: 30%;
+}
+
+#ImageThumbnails img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 200px;
+}
+#ImageThumbnails li div { width: auto; height: auto; }
+
+/* Ad images column wrap */
+
+/*}}}*/
+
+/* Infinite Scroll Loading {{{*/
+
+.infinite-scroll-loading {
+  font-size: 20px;
+}
+
+/*}}}*/

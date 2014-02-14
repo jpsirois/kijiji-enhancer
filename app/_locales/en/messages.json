@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Kijiji.ca & LesPAC.com Enhancer",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Improve Kijiji.ca & LesPAC.com browsing experience",
+    "description": "The description of the application"
+  }
+}
