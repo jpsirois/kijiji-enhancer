@@ -279,4 +279,16 @@ tr.highlight {
   font-size: 20px;
 }
 
+.file-input-field {
+    display: inline-block;
+}
+
+.urlImageInput {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.urlImageInput input[type=text] {
+    width: 200px;
+}
 /*}}}*/

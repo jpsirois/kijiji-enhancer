@@ -43,5 +43,4 @@ if (window.location.host === 'www.lespac.com') {
   ss.rel = 'stylesheet'
   ss.href = chrome.extension.getURL('kijiji/stylesheets/all.css')
   document.head.appendChild(ss)
-
 }

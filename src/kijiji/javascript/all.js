@@ -217,5 +217,15 @@ init = function() {
   }
 
   /*}}}*/
+
+  // If we're posting an ad
+  if($('#ImageUpload').length) {
+    var imgUploadDiv = $("#ImageUpload");
+
+    window.addEventListener("message", function(event) {
+      if(event.data.type === "downloadImageRequest")
+        imgUploadDiv.fileupload('add', {files: event.data.image});
+    });
+  }
 }
 init()
