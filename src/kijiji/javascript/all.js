@@ -80,9 +80,11 @@ init = function() {
       // });
 
       // Enlarge listing thumbnails
-      $('.image img').each(function(){
-        $(this).attr('src', $(this).attr('src').replace(/_[2|14]\.JPG/, '_35.JPG'))
-      })
+      // $('.image img').each(function(){
+      //   $(this).attr('src', $(this).attr('src').replace(/_[2|14]\.JPG/, '_35.JPG'))
+      // })
+
+
     }
 
     /*}}}*/
