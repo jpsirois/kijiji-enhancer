@@ -5,7 +5,6 @@
 ### [Kijiji.ca](http://www.kijiji.ca)
 
 - Infinite Scroll in Ads listing
-- Increase ads listing (browsing, my following, all a user ads) images size __*__
 - Increase ad image (using the fullsize version) __*__
 - Add a more fluid layout to the ad page
 - Add image gallery keyboard navigation in ad page
@@ -41,6 +40,11 @@ Just enjoy browsing [Kijiji.ca](http://kijiji.ca) & [LesPAC.com](http://lespac.c
 - Save ads as favorite (synced with a login)
 
 ## Release Notes
+
+### 0.1.9 - 2016-04-13
+
+- Remove the Kijiji listing image resizing since they now make it bigger by default.
+- Fix InfiniteScroll on Kijiji to work with their last update
 
 ### 0.1.8 - 2014-01-27
 
